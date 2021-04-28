@@ -1,0 +1,25 @@
+.hourRow {
+  box-shadow: rgba(0, 0, 0, 0.75) 0px 0px 6px;
+  margin-bottom: 15px;
+  border-top: 1px solid rgb(242, 230, 213, 0.3);
+  border-bottom: 1px solid rgb(242, 230, 213, 0.3);
+  font-family: "Linux Libertine";
+}
+
+.day {
+  text-transform: capitalize;
+  text-align: left;
+  font-family: "Linux Libertine";
+}
+.hours {
+  text-align: right;
+  font-family: "Linux Libertine";
+}
+@media only screen and (max-width: 400px) {
+  .hours {
+    font-size: 0.8em;
+  }
+}
+.hourContainer {
+  background-color: transparent !important;
+}

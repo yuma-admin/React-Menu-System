@@ -1,0 +1,177 @@
+.containerPadding {
+  padding: 0px;
+  background-color: transparent !important;
+}
+
+.stickyContainer {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 45px !important;
+  padding-top: 20px;
+  background-color: rgb(23, 23, 23) !important;
+  z-index: 100;
+}
+
+.logo {
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  height: 100% !important;
+  max-height: 100%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.backDiv {
+  position: relative;
+}
+
+.backButton {
+  position: absolute;
+  width: 20px;
+  top: 40%;
+  left: 5vw !important;
+  background: transparent;
+  border: transparent;
+  color: #d9ab73;
+  padding: 0px !important;
+}
+
+@media (max-width: 768px) {
+  .backButton {
+    left: 5vh;
+  }
+}
+
+.buttonContainer {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-bottom: 15px;
+}
+
+.button {
+  background: #d9ab73;
+  border-radius: 10px;
+  color: rgb(0, 0, 0.9);
+  font-family: "Montserrat", sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-weight: bolder;
+  padding: 0px !important;
+}
+
+.tri {
+  padding: 20px 1vw 20px 1vw !important;
+  min-width: 14vh;
+  margin-right: 3px;
+  margin-left: 3px;
+}
+
+.duo {
+  padding: 20px 2vw 20px 2vw !important;
+  min-width: 18vh;
+  margin-right: 3px;
+  margin-left: 3px;
+}
+
+.phoneAndAddress {
+  color: #f2e6d5;
+  margin: auto;
+  text-align: Center;
+  margin-top: 15px;
+  width: 75%;
+  margin-bottom: 15px;
+  font-family: "Linux Libertine";
+}
+
+.storeImage {
+  width: 100%;
+}
+
+.phoneAndAddress {
+  color: #f2e6d5;
+  margin: auto;
+  text-align: Center;
+  margin-top: 15px;
+  width: 85%;
+  margin-bottom: 15px;
+}
+
+.innerPhoneAndAddress {
+  border-top: 1px solid rgb(242, 230, 213, 0.3);
+  border-bottom: 1px solid rgb(242, 230, 213, 0.3);
+}
+
+.phoneIcon {
+  color: #d9ab73;
+  margin-bottom: 10px;
+  margin-top: 15px;
+}
+
+.locationIcon {
+  color: #d9ab73;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.phoneNumber {
+  margin-bottom: 15px;
+}
+
+.Hours {
+  color: #f2e6d5;
+  text-align: center;
+  width: 85%;
+  margin: auto;
+  font-size: 1.5rem;
+  margin-bottom: 25px;
+}
+.Hours h4 {
+  font-size: 2.5rem;
+  font-family: "Linux Libertine";
+}
+
+.storeDescription {
+  width: 85%;
+  color: #f2e6d5;
+  text-align: center;
+  margin: auto;
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+.storeDescription h4 {
+  border-top: 1px solid rgb(242, 230, 213, 0.3);
+  border-bottom: 1px solid rgb(242, 230, 213, 0.3);
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 2.5rem;
+  font-family: "Linux Libertine";
+}
+.storeDescription p {
+  width: 85%;
+  margin: auto;
+  font-family: "Montserrat", sans-serif;
+  font-style: italic;
+  text-align: justify;
+  font-size: 17px;
+  font-weight: 400;
+}
+.phoneLink {
+  color: inherit;
+}
+.phoneLink:hover {
+  color: #d9ab73;
+}
+.hoverAddress {
+  cursor: pointer;
+}
+.hoverAddress:hover {
+  color: #d9ab73;
+}

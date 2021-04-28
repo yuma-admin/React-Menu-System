@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&display=swap");
+#store {
+  display: flex;
+  width: auto;
+  cursor: pointer;
+  text-align: left;
+  pointer-events: auto;
+  flex-shrink: 0;
+  max-width: 100%;
+  -webkit-box-align: center;
+  align-items: center;
+  color: #d9ab73;
+  height: 22vh;
+  position: relative;
+  background: rgb(0, 0, 0, 0);
+  font-family: "Linux Libertine";
+}
+
+#store img {
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  max-height: 100%;
+  margin-top: -22px;
+}
+
+#store h4 {
+  font-size: 1em;
+  font-weight: bolder;
+  margin-bottom: 6px;
+  text-decoration: none;
+  text-align: center;
+  font-weight: 100;
+  line-height: 0.9em;
+}
+
+#store svg.rotated {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  stroke-width: 0.2px;
+  z-index: 1;
+}
+
+#store svg.line {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  stroke-width: 0.3px;
+  z-index: 10;
+}
+
+#store p {
+  text-align: center;
+}
+
+#storeInfo {
+  margin: 0;
+  position: absolute;
+  top: 55%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  width: 90%;
+  left: 2%;
+}
+
+.separatorBox {
+  height: 10vw;
+}
+
+#store button {
+  background: #d9ab73;
+  border-radius: 10px;
+  color: rgb(0, 0, 0.9);
+  padding: 3px 2vw 3px 2vw;
+  font-family: "Montserrat", sans-serif;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  font-style: italic;
+  border: 1px solid transparent;
+  font-size: 17px;
+  font-weight: 800;
+}
+
+#buttonWrapper {
+  background: transparent;
+  padding: 0px;
+  border: none;
+  width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  max-width: 600px;
+}
+
+#svgSeparator {
+  width: 100%;
+  height: 50px;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+}
+
+.lineBox {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  stroke-width: 0.5;
+  z-index: 10;
+}
+
+#logoColumn {
+  padding-left: 3%;
+}
+
+#distanceToStore {
+  color: white;
+  font-size: 1.5em !important;
+}
+
+#storeContainer {
+  background: transparent;
+}

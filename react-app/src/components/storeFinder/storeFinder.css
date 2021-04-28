@@ -1,0 +1,55 @@
+.search {
+  color: #d9ab73;
+  text-align: center;
+  margin-bottom: 5vh;
+}
+
+@media (max-width: 991px) {
+  .search {
+    display: none;
+  }
+  .storeCards {
+    margin-top: 20px;
+  }
+  .mobileSearch {
+    display: block !important;
+  }
+  .desktopMap {
+    display: none;
+  }
+  .mobileMap {
+    display: block !important;
+  }
+}
+.mobileMap {
+  display: none;
+}
+.mobileSearch {
+  color: #d9ab73;
+  text-align: center;
+  margin-bottom: 5vh;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: 1000;
+  width: 100%;
+  display: none;
+}
+.search h1 {
+  margin-bottom: 1vh;
+}
+
+.mapCol {
+  padding: 0px !important;
+}
+
+.selectedStoreInfo {
+  padding: 0px !important;
+}
+
+.stickyMap {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  padding: 0px !important;
+}

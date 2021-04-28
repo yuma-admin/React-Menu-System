@@ -1,0 +1,40 @@
+.storeImage {
+  width: 100%;
+}
+.storeLogo {
+  width: 80%;
+  padding-top: 10px;
+  margin-bottom: 15px;
+}
+.infoWindow {
+  max-width: 250px;
+  text-align: center;
+  font-family: "linux liberte";
+  background-color: rgb(0, 0, 0, 0.9);
+  color: #f2e6d5;
+}
+
+#address {
+  font-size: 1.4em;
+  line-height: 1.5;
+  margin-bottom: 0px;
+}
+
+.phone {
+  padding-bottom: 15px;
+  margin: 0px;
+}
+
+.gm-style-iw {
+  width: 250px !important;
+  top: 0 !important;
+  left: 0 !important;
+  background-color: rgb(0, 0, 0, 0.9);
+  box-shadow: 0 1px 6px rgba(178, 178, 178, 0.6);
+  padding: 0px !important;
+  overflow: hidden !important;
+}
+
+.gm-style-iw-d {
+  overflow: auto !important;
+}
